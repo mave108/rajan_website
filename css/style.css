@@ -776,7 +776,7 @@ offcanvas-menu
   padding: 5em 0;
 }
 .activity-head{
-    padding: 0 20em;
+    padding: 0 16em;
     text-align: center;
 }
 .activity-head h2{
@@ -814,6 +814,9 @@ offcanvas-menu
 .activity-details h4{
   color: #333333;
   font-size: 1rem;
+}
+.activity-details ul{
+  list-style: inherit;
 }
 
 @media(max-width: 767px){
