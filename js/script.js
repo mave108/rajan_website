@@ -47,23 +47,18 @@ jQuery(function ($) {
         return check;
     };
 
+    // ================================================================
+    // includes external files
+    // ================================================================
 
-
-    // -------------------------------------------------------------
-    // OffCanvas
-    // -------------------------------------------------------------
-    (function () {
-        $('button.navbar-toggle').OffCanvasMenu({
-        documentWrapper: '#wrapper',
-        contentWrapper : '.content-wrapper',
-        position       : 'uc-offcanvas-left',    // class name
-        // opener         : 'st-menu-open',            // class name
-        effect         : 'slide-in-on-top',             // class name
-        closeButton    : '#off-canvas-close-btn',
-        menuWrapper    : '.offcanvas-menu',                 // class name below-pusher
-        documentPusher : '.offcanvas-pusher'
+    $(function(){
+        var includes = [];
+        jQuery("div[data-include]").each(function(){
+            includes.push({element:jQuery(this),src:jQuery(this).data('include')});
         });
-    }());
+        //includes all files
+        utility.include(includes);   
+    });
 
     // -------------------------------------------------------------
     // search bar
