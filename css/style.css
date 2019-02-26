@@ -572,7 +572,7 @@ offcanvas-menu
 }
 .carousel-caption{
     right: 15%;
-    left: 49%;
+    left: 56%;
     bottom: 50px;
     padding-bottom: 30px;
     text-align: left;
@@ -588,13 +588,13 @@ offcanvas-menu
 }
 
 .carousel-indicators li {
-    width: 4px;
-    height: 4px;
+    width: 17px;
+    height: 17px;
     background: #ffffff;
 }
 .carousel-indicators .active {
-    width: 6px;
-    height: 6px;
+    width: 20px;
+    height: 20px;
     background: #FDC312;
     border:1px solid #FDC312;
 }
