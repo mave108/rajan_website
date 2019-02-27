@@ -659,10 +659,11 @@ offcanvas-menu
   border-left:0;
   border-right:0;
   margin-bottom: 5em;
+  text-align: center;
 }
 .service-section li:first-child{
   font-size: 1.571em;
-  margin-right: 9.286em;
+  margin-right: 12px;
   padding: 0;
   border:0;
 }
@@ -673,7 +674,7 @@ offcanvas-menu
   border-left: 2px solid rgba(0,0,0,.3);
 }
 .service-section li:last-child{
-  border-right: 2px solid rgba(0,0,0,.3);
+  border-right: 0px solid rgba(0,0,0,.3);
 }
 .service-section li a{
     border-radius: 0;
@@ -761,6 +762,31 @@ offcanvas-menu
   .service-section li a {
     font-size: 1rem;
   }
+  .service-section ul.tablist li{
+    display: block;
+    width: 100%;
+    background-color: #f2c15f;
+    margin: 1em 0 0;
+  }
+  .service-section ul.tablist li.active{
+    padding: 0;
+  }
+  .service-section ul.tablist li.active a{
+    background: inherit;
+    background-color: #5274ae;
+    color: #fff;
+    border-bottom:none;
+  }
+
+  .service-section ul.tablist li a{
+    color: #fff;
+    background: inherit;
+    border-bottom: none;
+    padding: 1em;
+    display: block;
+    font-size: 15px;
+  }
+  .service-section li{    border-left: 0px solid rgba(0,0,0,.3);}
 }
 @media(min-width: 480px) and (max-width: 991px){
   .service-section li:first-child {
