@@ -853,7 +853,7 @@ offcanvas-menu
   height:400px;
 }
 .quote{
-  padding: 7em 20em;
+  padding: 2em 0;
   text-align: center; 
 }
 .quote h2{
@@ -871,7 +871,7 @@ offcanvas-menu
 
 @media(max-width: 767px){
   .quote{
-    padding: 5em 0em; 
+    padding: 1em 0em; 
   }
 }
 @media(min-width: 768px) and (max-width: 1199px){
