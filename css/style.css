@@ -457,7 +457,11 @@ input.empty {
 :focus::-webkit-input-placeholder { 
   color: ffffff !important;  
 }
-
+.header-wrapper{
+  background: #fff;
+  z-index: 99;
+  width: 100%
+}
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width : 767px) {
