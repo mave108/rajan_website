@@ -457,11 +457,15 @@ input.empty {
 :focus::-webkit-input-placeholder { 
   color: ffffff !important;  
 }
-.affix-header{
+.affix-header.affix{
   background: #fff;
   z-index: 99;
-  width: 100%;
+  width: 101%;
+  left: 0;
   box-shadow: 0 3px 10px #ccc;
+}
+.affix-header.affix .header{
+  padding: 0 10em;
 }
 
 /* Extra small devices (phones, less than 768px) */
