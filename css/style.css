@@ -712,6 +712,7 @@ offcanvas-menu
 .service-item{
   position: relative;
   margin-bottom:2.1em;
+  box-shadow: 0px 2px 8px 2px #ccc;
 }
 .service-item::before{
   content: " ";
@@ -735,7 +736,8 @@ offcanvas-menu
   position: absolute;
   left:0;
   bottom: 0;
-  padding: 0 2.8em 2.8em;;
+  padding: 0.8em 1.8em 1.8em;
+  background: rgb(0, 0, 0, 0.4);
 }
 .service-description h3{
     color: #ffffff;
@@ -763,7 +765,9 @@ offcanvas-menu
 .service-item:hover .service-description h3{
     border-left: 5px solid #ffffff;
 }
-
+.service-item:hover .service-description{
+	    background: none;
+}
 @media(max-width: 767px){
   .service-section li:first-child {
     margin-right: 0;
@@ -938,6 +942,7 @@ offcanvas-menu
   border-bottom:1px solid rgba(0,0,0, .05);
   border-left: 0;
   border-right: 0;
+  margin-top: 3em;
 }
 .footer-top p, 
 address{
