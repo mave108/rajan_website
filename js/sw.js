@@ -1,5 +1,5 @@
 var version = "0.6.11";
-var cacheName = `rajan-web-${version}`;
+var cacheName = 'rajan-web-'+version;
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
